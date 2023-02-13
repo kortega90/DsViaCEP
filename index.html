@@ -22,13 +22,13 @@
         <main>
             <section id="from-section" class="form-container">
                 <div class="card-form">
-                    <form action="newAddress">
+                    <form name="newAddress">
 
                         <div class="form-control">
                             <label for="cep"></label>
                             <input name="cep" id="cep" class="form-input" type="text"
                                 placeholder="CEP">
-                                <div class="error-menssage">Campo requerido </div>
+                                <div class="error-menssage" data-error="cep">Campo requerido </div>
                         </div>
                         <div class="form-control">
                             <label for="street"></label>
@@ -39,16 +39,16 @@
                             <label for="number"></label>
                             <input name="number" id="number" class="form-input" type="text"
                                 placeholder="Número">
-                            <div class="error-menssage">Campo requerido </div>
+                            <div class="error-menssage" data-error="number">Campo requerido </div>
                         </div>
                         <div class="form-control">
-                            <label for="cidade"></label>
-                            <input name="cidade" id="" type="cidade" class="form-input" type="text"
+                            <label for="city"></label>
+                            <input name="city" id="" type="city" class="form-input" type="text"
                                 placeholder="Ciudade" disabled>
                         </div>
                         <div class="btn-container">
-                            <button class="btn btn-left" type="submit">Salvar</button>
-                            <button class="btn btn-right">Limpar</button>
+                            <button name ="btnSave" class="btn btn-left" type="submit">Salvar</button>
+                            <button name ="btnclear" class="btn btn-right">Limpar</button>
                         </div>
 
                     </form>
@@ -70,5 +70,6 @@
 
             </section>
         </main>
+        <script type="module" src="js/dsviacep.js"> </script>
     </body>
 </html>
