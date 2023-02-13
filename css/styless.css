@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Spen Sans', sans-serif;
+}
+:root{
+    --bg-black: #000;
+    --color-oracle: #FF8400 ;
+    --text-light-gray:#c9c9c9;
+    --white:#ffff;
+    --error-menssage:#4a4a4a;
+    --form-background: #333;
+ }
+
+ html,body{
+    background-color: var(--bg-black);
+ }
+ .nav-container{
+    height: 80px;
+    background-color: var(--color-oracle);
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+
+ }
+ .nav-main{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .nav-main h1{
+    color: var(--white);
+    font-size: 36px;
+ }
+ .contac-link {
+color: var(--white);
+cursor: pointer;
+ }
+ .form-container{
+    width: 100%;
+    padding: 40px 20px ;
+ }
+
+ .card-form{
+background-color: var(--form-background);
+width: 100%;
+max-width: 600px;
+margin: 0 auto;
+border-radius: 8px;
+padding: 20px;
+ }
+ .form-control{
+
+    margin-bottom: 20px;
+
+ }
+  .form-control label{
+    display: none;
+ }
+ .error-menssage{
+    margin-top: 5px;
+    color: var(--error-menssage);
+ }
+
+ .form-input{
+    height: 50px;
+    width: 100%;
+    border-radius: 4px;
+    padding: 0 20px;
+    font-size: 14px;
+    border: 0;
+ }
+
+ .form-input::placeholder{
+    color: var(--text-light-gray);
+ }
+
+ .form-input:disabled{
+    background-color: #ddd;
+ }
+
+ .btn-container{
+    display: flex;
+    justify-content: space-between;
+
+ }
+ .btn{
+   width: 250px; 
+   height: 50px;
+    background-color:var(--color-oracle) ;
+    border: 0;  
+    border-radius: 4px;  
+    color: var(--white);
+    font-weight: 700;
+    font-size: 14px;
+ }
+
+ .btn-left {
+margin-right: 10px;
+ }
+ .btn-right {
+    margin-left: 10px;  
+}
+.list-container{
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-list-item{
+    background-color:var(--form-background);
+    color: var(--white);
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 900px;
+    border-radius: 8px;
+    padding: 20px;
+}
+.card-list-item h3{
+    color: var(--color-oracle);
+    font-size: 18px;
+}
+.address-line{
+    color: var(--white);
+    font-size: 14px ;
+}
+.address-cep{
+    color: #8f8f8f;
+    font-size: 12px;
+}
