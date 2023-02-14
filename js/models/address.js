@@ -3,5 +3,4 @@ export default function Address(cep,street,number,city){
     this.street =street;
     this.number = number;
     this.city = city;
-
 }
