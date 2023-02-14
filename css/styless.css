@@ -65,7 +65,7 @@ padding: 20px;
  }
  .error-menssage{
     margin-top: 5px;
-    color: var(--error-menssage);
+    color: var(--color-oracle);
  }
 
  .form-input{
