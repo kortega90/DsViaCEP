@@ -8,6 +8,7 @@
     width: 100%;
     z-index: 1;
     display: none;
+    padding: 20px;
 }
 
 .modal-container.active{
@@ -28,5 +29,5 @@ align-items: center;
 }
 .modal-content{
     color: #fff;
-    margin-bottom: 40 px;
+    margin-bottom: 40px;
 }
